@@ -1,0 +1,56 @@
+/* Google Web Fonts CDN*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+/* Default CSS */
+body{
+  font-family: 'Noto Sans KR',sans-serif;
+  display: flex;
+  justify-content: center; /* 수평 */
+  align-items: center;  /* 수직 */
+  height: 100vh;
+}
+/*
+  justify-content: center; 자식들의  수평정렬
+  align-items: center;    자식들의 수직정렬
+  flex-direction :  자식요소들의 배치되는 방향
+  flex-wrap : 부모 사이즈가 작아졌을때 자식들이  너비를 줄일것인지 
+  align-content :  ?? 
+
+  자식요소 (child )
+  flex: 크기
+  order: 순서
+  align-self : 개별적으로 조절
+*/
+a{
+  text-decoration: none;
+}
+
+/* Base  Align Horizontal Center Vertical Center in Traditional Way */
+/* .box{
+  background-color: yellowgreen;
+  color:#fff;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  font-style: 2em;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  -moz-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  -o-transform:translate(-50%,-50%);
+} */
+
+/* Flex  Align Horizontal Center Vertical Center in Way*/
+.box{
+  background-color: yellowgreen;
+  color:#fff;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  font-style: 2em;
+}
