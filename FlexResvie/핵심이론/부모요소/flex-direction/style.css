@@ -1,0 +1,38 @@
+/* Google Web Fonts CDN*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+/* Default CSS */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* flex-direction : 자식요소의 가로배치(row) 세로배치(colum), 정뱡향배치, 역방향 배치 */
+/* flex-wrap : 보모 요소의 너비값 안에서 줄바꿈없이 배치할지 줄을 바꿀지 결정  */
+/* flex-flow : flex-direction속성과 flex-wrap 속성을 동시에 사용가능 사용 */
+/* flex-grow : 플렉스 자식요소의 증가 너비 비율을 설정  */
+/* flex-shrink : 플렉스 자식요소의 감소 너비 비율을 설정 */
+/* flex-basis : 플렉스 자식요소의 공간 배분전 기본 너비 설정*/
+/* flex : grow, shrink , 400px*/
+/* order: 플렉스 자식 요소의 순서 설정 ( 자식 요소 ) */
+/* align-self : 자식요소 (수직배열 ) */
+.parent {
+  display: flex;
+  border: 5px solid #000;
+  flex-direction: row;
+
+}
+
+.child {
+  background-color: crimson;
+  color: #fff;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  line-height: 200px;
+  flex: 10%;
+}

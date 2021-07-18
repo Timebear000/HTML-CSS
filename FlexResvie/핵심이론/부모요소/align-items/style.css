@@ -1,0 +1,26 @@
+/* Google Web Fonts CDN*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+/* Default CSS */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* align-items: 자식요소들의 상단, 중앙, 하단 등 수직배치 가능합니다. */
+.parent {
+  border: 5px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child {
+  background-color: yellowgreen;
+  color: #fff;
+  width: 8vh;
+  height: 8vh;
+  margin: 1%;
+}

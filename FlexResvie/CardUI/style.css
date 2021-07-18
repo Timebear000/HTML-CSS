@@ -1,0 +1,48 @@
+/* Google Web Fonts CDN*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+/* Default CSS */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-items {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border: 2px solid red;
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+}
+
+.card h3 {
+  flex: 1;
+}
+
+.card p {
+  text-overflow: ellipsis;
+  height: 200px;
+  flex: 3;
+}
+
+.card img {
+  width: 100%;
+  flex: 2;
+}

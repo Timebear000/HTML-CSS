@@ -1,0 +1,59 @@
+/* Google Web Fonts CDN*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+/* Default CSS */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: yellowgreen;
+  color: #fff;
+  height: calc(150px - 4em);
+  padding: 2em;
+  text-align: center;
+}
+
+section {
+  display: flex;
+}
+
+article,
+aside,
+nav {
+  height: calc(100vh - 300px);
+}
+
+article {
+  flex: 3;
+  background-color: #eee;
+}
+
+aside {
+  flex: 1;
+  background-color: #bbb;
+}
+
+nav {
+  background-color: #ddd;
+  flex: 1;
+}
+
+footer {
+  background-color: grey;
+  color: #fff;
+  padding: 2em;
+  text-align: center;
+  height: calc(150px - 4em);
+}

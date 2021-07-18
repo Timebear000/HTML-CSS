@@ -9,3 +9,30 @@ body{
 a{
   text-decoration: none;
 }
+
+.parent{
+  border:5px solid #000;
+  display: flex;
+
+  /* juetify-content: 자식 요소들의 수평방향*/
+  /* justify-content:center; */
+  /* justify-content:flex-start; */
+  /* justify-content:flex-end; */
+
+  /* 2개 이상일 경우 */
+  /* justify-content: space-around;  자식들이 중앙을 기준으로 일정한 공간을 두는것 */
+  /* justify-content: space-between;  자식들의 좌우 여백없이 채우고 난 뒤에 공간 여부를 두는것  */
+   justify-content: space-between;
+
+   height:500px;
+  
+}
+.child{
+  background-color: royalblue;
+  color: #fff;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  margin:5px;
+}
